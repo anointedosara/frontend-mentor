@@ -184,6 +184,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     z-index: -1;
+    background-size: cover;
 }
 
 .div3 div {
@@ -202,9 +203,10 @@ body {
 @media screen and (max-width: 1023px) {
     .div3 {
         background-image: url("./image/image-hero.jpg");
-        height: 40vh;
+        height: 100vh;
         margin-top: -107px;
         position: relative;
+        background-size: cover;
     }
     
     .div3 div {
@@ -228,6 +230,7 @@ body {
         height: 100vh;
         margin-top: -128px;
         position: relative;
+        background-size: cover;
     }
     
     .div3 div {
