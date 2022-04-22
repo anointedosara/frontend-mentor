@@ -394,6 +394,7 @@ body {
     background-image: url("./image/image-deep-earth.jpg");
     height: 450px;
     position: relative;
+    background-size: cover;
 }
 
 .div8 div {
@@ -411,6 +412,7 @@ body {
     background-image: url("./image/image-night-arcade.jpg");
     height: 450px;
     position: relative;
+    background-size: cover;
 }
 
 .div9 div {
@@ -428,6 +430,7 @@ body {
     background-image: url("./image/image-soccer-team.jpg");
     height: 450px;
     position: relative;
+    background-size: cover;
 }
 
 .div10 div {
@@ -445,6 +448,7 @@ body {
     background-image: url("./image/image-grid.jpg");
     height: 450px;
     position: relative;
+    background-size: cover;
 }
 
 .div11 div {
@@ -462,6 +466,7 @@ body {
     background-image: url("./image/image-from-above.jpg");
     height: 450px;
     position: relative;
+    background-size: cover;
 }
 
 .div12 div {
@@ -479,6 +484,7 @@ body {
     background-image: url("./image/image-pocket-borealis.jpg");
     height: 450px;
     position: relative;
+    background-size: cover;
 }
 
 .div13 div {
@@ -496,6 +502,7 @@ body {
     background-image: url("./image/image-curiosity.jpg");
     height: 450px;
     position: relative;
+    background-size: cover;
 }
 
 .div14 div {
@@ -513,6 +520,7 @@ body {
     background-image: url("./image/image-fisheye.jpg");
     height: 450px;
     position: relative;
+    background-size: cover;
 }
 
 .div15 div {
@@ -583,6 +591,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div8 div {
@@ -601,6 +610,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div9 div {
@@ -619,6 +629,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div10 div {
@@ -637,6 +648,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div11 div {
@@ -655,6 +667,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div12 div {
@@ -673,6 +686,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div13 div {
@@ -691,6 +705,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div14 div {
@@ -709,6 +724,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div15 div {
@@ -777,6 +793,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div8 div {
@@ -795,6 +812,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div9 div {
@@ -813,6 +831,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div10 div {
@@ -831,6 +850,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div11 div {
@@ -849,6 +869,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div12 div {
@@ -867,6 +888,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div13 div {
@@ -885,6 +907,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div14 div {
@@ -903,6 +926,7 @@ body {
         height: 200px;
         position: relative;
         background-repeat: no-repeat;
+        background-size: cover;
     }
     
     .div15 div {
