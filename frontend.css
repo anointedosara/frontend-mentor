@@ -202,7 +202,7 @@ body {
 @media screen and (max-width: 1023px) {
     .div3 {
         background-image: url("./image/image-hero.jpg");
-        height: 100vh;
+        height: 400vh;
         margin-top: -107px;
         position: relative;
     }
@@ -225,7 +225,7 @@ body {
 @media screen and (max-width: 767px) {
     .div3 {
         background-image: url("./image/image-hero.jpg");
-        height: 40vh;
+        height: 100vh;
         margin-top: -128px;
         position: relative;
     }
