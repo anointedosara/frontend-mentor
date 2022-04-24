@@ -167,8 +167,9 @@ body {
     
     .div2 {
         background-image: url("./image/bg-curvy-desktop.svg");
-        height: 50vh;
+        height: 100vh;
         width: 100%;
+        background-position: bottom;
         background-size: contain;
         background-repeat: no-repeat;
         position: absolute;
