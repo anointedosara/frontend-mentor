@@ -157,7 +157,7 @@ body {
     .div1 {
         background: hsl(217, 28%, 15%);
         margin-top: -166px;
-        height: 1050px;
+        height: 75vh;
         width: 100%;
         box-sizing: border-box;
         padding: 0 30px;
@@ -167,13 +167,13 @@ body {
     
     .div2 {
         background-image: url("./image/bg-curvy-desktop.svg");
-        height: 100vh;
+        height: 25vh;
         width: 100%;
         background-position: bottom;
         background-size: contain;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 0;
+        bottom: 0vh;
         z-index: -1;
     }
     
