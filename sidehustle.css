@@ -1,0 +1,1364 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background: hsl(217, 28%, 15%);
+    top: 0;
+    left: 0;
+    padding: 30px 50px;
+    z-index: 10000;
+}
+
+.navbar img {
+    width: 120px;
+    height: 40px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    color: white;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-left: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 50%;
+    transition: 0.3s all ease;
+}
+
+.navbar ul li:hover {
+    opacity: 100%;
+    text-decoration: underline;
+}
+
+.div1 {
+    background: hsl(217, 28%, 15%);
+    margin-top: -166px;
+    height: 174vh;
+    z-index: -1;
+    position: relative;
+}
+
+.div2 {
+    background-image: url("./image/bg-curvy-desktop.svg");
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.div3 {
+    max-width: 570px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.div3 img {
+    width: 100%;
+    margin-top: 200px;
+}
+
+.div3 p {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 80%;
+}
+
+.div3 .p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    opacity: 100%;
+}
+
+.btn {
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    background: hsl(198, 60%, 50%);
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    background: white;
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        background: hsl(217, 28%, 15%);
+        top: 0;
+        left: 0;
+        padding: 30px 30px;
+        z-index: 10000;
+    }
+    
+    .navbar img {
+        width: 100px;
+        height: 30px;
+    }
+    
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        list-style: none;
+    }
+    
+    .navbar ul li {
+        margin-left: 60px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        opacity: 50%;
+        transition: 0.3s all ease;
+    }
+    
+    .navbar ul li:hover {
+        opacity: 100%;
+        text-decoration: underline;
+    }
+    
+    .div1 {
+        background: hsl(217, 28%, 15%);
+        margin-top: -166px;
+        height: 80vh;
+        padding: 0 30px;
+        z-index: -1;
+        position: relative;
+    }
+    
+    .div2 {
+        background-image: url("./image/bg-curvy-mobile.svg");
+        height: 25vh;
+        width: 100vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+    }
+    
+    .div3 {
+        max-width: 570px;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .div3 img {
+        width: 100%;
+        margin-top: 200px;
+    }
+    
+    .div3 p {
+        text-align: center;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        opacity: 80%;
+    }
+    
+    .div3 .p {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 34px;
+        opacity: 100%;
+    }
+    
+    .btn {
+        padding: 15px 20px;
+        border-radius: 50px;
+        color: white;
+        background: hsl(198, 60%, 50%);
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        max-width: 250px;
+        margin: 0 auto;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .btn:hover {
+        background: white;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        background: hsl(217, 28%, 15%);
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 20px;
+        z-index: 10000;
+    }
+    
+    .navbar img {
+        width: 80px;
+        height: 25px;
+    }
+    
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        list-style: none;
+    }
+    
+    .navbar ul li {
+        margin-left: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        opacity: 50%;
+        transition: 0.3s all ease;
+    }
+    
+    .navbar ul li:hover {
+        opacity: 100%;
+        text-decoration: underline;
+    }
+    
+    .div1 {
+        background: hsl(217, 28%, 15%);
+        margin-top: -166px;
+        height: 83vh;
+        padding: 0 30px;
+        z-index: 1000;
+        position: relative;
+    }
+    
+    .div2 {
+        background-image: url("./image/bg-curvy-mobile.svg");
+        height: 25vh;
+        max-width: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+    }
+    
+    .div3 {
+        max-width: 100%;
+        align-items: center;
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    .div3 img {
+        width: 100%;
+        margin-top: 200px;
+    }
+    
+    .div3 p {
+        text-align: center;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13.5px;
+        opacity: 80%;
+    }
+    
+    .div3 .p {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        opacity: 100%;
+        margin-top: 50px;
+    }
+    
+    .btn {
+        padding: 15px 20px;
+        border-radius: 50px;
+        color: white;
+        background: hsl(198, 60%, 50%);
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        max-width: 250px;
+        margin: 40px auto 0 auto;
+        align-items: center;
+    }
+    
+    .btn:hover {
+        background: hsl(188, 50%, 60%);
+    }
+
+}
+
+.div4 {
+    margin-top: -30px;
+    padding: 0 50px;
+    background: hsl(218, 28%, 13%);
+    z-index: -1;
+}
+
+@media screen and (max-width: 1023px) {
+    .div4 {
+        margin-top: -30px;
+        padding: 50px 30px;
+        background: hsl(218, 28%, 13%);
+    }
+
+}
+
+.div5 {
+    display: grid;
+    max-width: 860px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 100px;
+}
+
+.p1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    margin: 0;
+    opacity: 80%;
+}
+
+.pp {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 20px 0 10px 0;
+    color: white;
+    text-align: center;
+    opacity: 90%;
+}
+
+.div7 {
+    width: max-content;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .div4 {
+        margin-top: 0px;
+        padding: 320px 20px 50px 20px;
+        background: hsl(218, 28%, 13%);
+    }
+
+    .div5 {
+        display: grid;
+        max-width: 860px;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        align-items: center;
+        grid-gap: 100px;
+    }
+
+    .p1 {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: white;
+        margin: 0;
+        opacity: 80%;
+    }
+
+    .pp {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        margin: 20px 0 10px 0;
+        color: white;
+        text-align: center;
+        opacity: 90%;
+    }
+
+    .div7 {
+        width: max-content;
+        margin: 0 auto;
+    }
+
+}
+
+.div8 {
+    background: hsl(218, 28%, 13%);
+    padding: 150px 80px;
+}
+
+.div9 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div10{
+    width: 55%;
+}
+
+.div10 img {
+    width: 100%;
+}
+
+.div11 {
+    width: 40%;
+}
+
+.div11 p:first-child {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 39px;
+    color: white;
+    margin: 0 0 20px 0;
+}
+
+.div11 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13.5px;
+    color: white;
+}
+
+.div11 div a p:first-child {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 13.5px;
+    color: hsl(176, 68%, 64%);
+    margin: 0 5px 5px 0;
+    opacity: 70%;
+    transition: 0.3s all ease;
+}
+
+.div11 div a:hover .p5 {
+    color: white;
+}
+
+.div11 div a:hover .img5 {
+    color: white;
+}
+
+.div11 div img {
+    margin-bottom: 5px;
+}
+
+.div11 div a {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid hsl(186, 38%, 54%);
+    text-decoration: none;
+    margin-top: 25px;
+    transition: 0.3s all ease;
+}
+
+.div11 div a:hover {
+    border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 1023px) {
+    .div8 {
+        background: hsl(218, 28%, 13%);
+        padding: 150px 30px;
+    }
+    
+    .div9 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .div10{
+        width: 100%;
+    }
+    
+    .div10 img {
+        width: 100%;
+    }
+    
+    .div11 {
+        width: 100%;
+        margin-top: 80px;
+    }
+    
+    .div11 p:first-child {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 39px;
+        color: white;
+        margin: 0 0 20px 0;
+    }
+    
+    .div11 p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .div11 div a p:first-child {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        color: hsl(176, 68%, 64%);
+        margin: 0 5px 5px 0;
+        opacity: 70%;
+        transition: 0.3s all ease;
+    }
+    
+    .div11 div a:hover .p5 {
+        color: white;
+    }
+    
+    .div11 div a:hover .img5 {
+        color: white;
+    }
+    
+    .div11 div img {
+        margin-bottom: 5px;
+        width: 17px;
+    }
+    
+    .div11 div a {
+        width: max-content;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid hsl(186, 38%, 54%);
+        text-decoration: none;
+        margin-top: 25px;
+        transition: 0.3s all ease;
+    }
+    
+    .div11 div a:hover {
+        border-bottom: 1px solid white;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .div8 {
+        background: hsl(218, 28%, 13%);
+        padding: 130px 30px;
+    }
+    
+    .div9 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .div10{
+        width: 100%;
+    }
+    
+    .div10 img {
+        width: 100%;
+    }
+    
+    .div11 {
+        width: 100%;
+        margin-top: 80px;
+    }
+    
+    .div11 p:first-child {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: white;
+        margin: 0 0 20px 0;
+    }
+    
+    .div11 p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 13.5px;
+        color: white;
+    }
+    
+    .div11 div a p:first-child {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 13.5px;
+        color: hsl(176, 68%, 64%);
+        margin: 0 5px 5px 0;
+        opacity: 70%;
+        transition: 0.3s all ease;
+    }
+    
+    .div11 div a:hover .p5 {
+        color: white;
+    }
+    
+    .div11 div a:hover .img5 {
+        color: white;
+    }
+    
+    .div11 div img {
+        margin-bottom: 5px;
+        width: 17px;
+    }
+    
+    .div11 div a {
+        width: max-content;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid hsl(186, 38%, 54%);
+        text-decoration: none;
+        margin-top: 25px;
+        transition: 0.3s all ease;
+    }
+    
+    .div11 div a:hover {
+        border-bottom: 1px solid white;
+    }
+
+}
+
+.div12 {
+    background: hsl(218, 28%, 13%);
+    padding: 0px 100px 200px 100px;
+    position: relative;
+}
+
+.image {
+    width: 50px;
+}
+
+.div13 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    margin: -12px 0 0 7px;
+}
+
+.div14 {
+    background: hsl(219, 30%, 18%);
+    border: none;
+    border-radius: 3px;
+    padding: 40px 30px 20px 30px;
+}
+
+.div14 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13.5px;
+    color: white;
+    margin: 0 0 30px 0;
+    opacity: 80%;
+}
+
+.div15 {
+    display: flex;
+    align-items: center;
+}
+
+.div15 img {
+    width: 25px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.div15 p:first-child {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    opacity: 80%;
+}
+
+.div15 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 9px;
+    margin: 0;
+    opacity: 60%;
+}
+
+.div18 {
+    background: hsl(217, 28%, 15%);
+    padding: 40px 50px 35px 50px;
+    width: 760px;
+    text-align: center;
+    position: static;
+    border-radius: 3px;
+    margin: 150px auto -300px auto;
+}
+
+.div18 p:first-child {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+.div19 {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.div19 p:first-child {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    opacity: 80%;
+    margin: 20px 0 30px 0;
+}
+
+.div18 input {
+    width: 420px;
+    padding: 15px;
+    border: none;
+    border-radius: 60px;
+    margin-right: 25px;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.div18 button {
+    width: 190px;
+    padding: 15px;
+    border: none;
+    border-radius: 60px;
+    background: hsl(198, 60%, 60%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 0.3s all ease;
+}
+
+.div18 button:hover {
+    background: hsl(188, 50%, 70%);
+}
+
+input::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: silver;
+    opacity: 50%;
+}
+
+.div18 a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 1023px) {
+    .div12 {
+        background: hsl(218, 28%, 13%);
+        position: relative;
+    }
+    
+    .image {
+        width: 40px;
+    }
+    
+    .div13 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+        margin: -12px 0 0 7px;
+    }
+    
+    .div14 {
+        background: hsl(219, 30%, 18%);
+        border: none;
+        border-radius: 3px;
+        padding: 40px 30px 20px 30px;
+    }
+    
+    .div14 p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13.5px;
+        color: white;
+        margin: 0 0 30px 0;
+        opacity: 80%;
+    }
+    
+    .div15 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .div15 img {
+        width: 25px;
+        border: none;
+        border-radius: 50%;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    
+    .div15 p:first-child {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 11px;
+        opacity: 80%;
+    }
+    
+    .div15 p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 9px;
+        margin: 0;
+        opacity: 60%;
+    }
+    
+    .div18 {
+        background: hsl(217, 28%, 15%);
+        padding: 40px 50px 35px 50px;
+        width: 760px;
+        text-align: center;
+        position: static;
+        margin-bottom: -300px;
+        border-radius: 3px;
+    }
+    
+    .div18 p:first-child {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        color: white;
+        margin: 0;
+    }
+    
+    .div19 {
+        width: 600px;
+        margin: 0 auto;
+    }
+    
+    .div19 p:first-child {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: white;
+        opacity: 80%;
+        margin: 20px 0 30px 0;
+    }
+    
+    .div18 input {
+        width: 420px;
+        padding: 15px;
+        border: none;
+        border-radius: 60px;
+        margin-right: 25px;
+        outline: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    
+    .div18 button {
+        width: 190px;
+        padding: 15px;
+        border: none;
+        border-radius: 60px;
+        background: hsl(198, 60%, 60%);
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        transition: 0.3s all ease;
+    }
+    
+    .div18 button:hover {
+        background: hsl(188, 50%, 70%);
+    }
+    
+    input::placeholder {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: silver;
+        opacity: 50%;
+    }
+    
+    .div18 a {
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .div12 {
+        background: hsl(218, 28%, 13%);
+        position: relative;
+        padding: 0px 20px 200px 30px;
+    }
+    
+    .image {
+        width: 30px;
+    }
+    
+    .div13 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        margin: -8px 0 0 -5px;
+    }
+    
+    .div14 {
+        background: hsl(219, 30%, 18%);
+        border: none;
+        width: 100%;
+        border-radius: 3px;
+        padding: 40px 30px 20px 30px;
+    }
+    
+    .div14 p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        color: white;
+        margin: 0 0 30px 0;
+        opacity: 80%;
+    }
+    
+    .div15 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .div15 img {
+        width: 25px;
+        border: none;
+        border-radius: 50%;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    
+    .div15 p:first-child {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 11px;
+        opacity: 80%;
+    }
+    
+    .div15 p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 9px;
+        margin: 0;
+        opacity: 60%;
+    }
+    
+    .div18 {
+        background: hsl(217, 28%, 15%);
+        padding: 40px 30px 35px 30px;
+        width: 103%;
+        text-align: center;
+        position: static;
+        border-radius: 10px;
+        margin: 200px 20px -390px -10px;
+    }
+    
+    .div18 p:first-child {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+        margin: 0;
+    }
+    
+    .div19 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .div19 p:first-child {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 12.5px;
+        color: white;
+        opacity: 80%;
+        margin: 20px 0 30px 0;
+    }
+    
+    .div18 input {
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-radius: 60px;
+        margin-right: 25px;
+        outline: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    
+    .div18 button {
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-radius: 60px;
+        background: hsl(198, 60%, 60%);
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        transition: 0.3s all ease;
+        margin-top: 30px;
+    }
+    
+    .div18 button:hover {
+        background: hsl(188, 50%, 70%);
+    }
+    
+    input::placeholder {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        color: silver;
+        opacity: 50%;
+    }
+    
+    .div18 a {
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+.div20 {
+    background: hsl(216, 53%, 9%);
+    padding: 180px 150px 60px 150px;
+}
+
+.img4 {
+    width: 150px;
+}
+
+.div22 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.div23 {
+    display: flex;
+    width: 330px;
+}
+
+.div23 img {
+    width: 15px;
+    height: 18px;
+    margin-right: 20px;
+}
+
+.div23 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    opacity: 70%;
+    margin: 0;
+}
+
+.div24 div {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.div24 div img {
+    width: 18px;
+    height: 16px;
+    margin-right: 20px;
+}
+
+.div24 div p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    opacity: 70%;
+    margin: 0;
+}
+
+.div22 ul {
+    margin: 0;
+    list-style: none;
+}
+
+.div22 ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    opacity: 70%;
+    margin-bottom: 15px;
+}
+
+.div25 {
+    display: flex;
+    height: max-content;
+}
+
+.div25 div {
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding: 5px 6px 2px 6px;
+    align-items: center;
+}
+
+.div25 img {
+    width: 13px;
+    height: 13px;
+}
+
+@media screen and (max-width: 1023px) {
+    .div20 {
+        background: hsl(216, 53%, 9%);
+        padding: 180px 30px 50px 30px;
+    }
+    
+    .img4 {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .div21 {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+    .div22 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    
+    .div23 {
+        display: flex;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .div23 img {
+        width: 15px;
+        height: 18px;
+        margin-right: 20px;
+        
+    }
+    
+    .div23 p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+        opacity: 90%;
+        margin: 0;
+    }
+    
+    .div24 div {
+        display: flex;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    
+    .div24 div img {
+        width: 18px;
+        height: 16px;
+        margin-right: 20px;
+    }
+    
+    .div24 div p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+        opacity: 90%;
+        margin: 0;
+    }
+    
+    .div22 ul {
+        margin: 40px 0 0 -40px;
+        list-style: none;
+    }
+    
+    .div22 ul li {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+        opacity: 90%;
+        margin-bottom: 20px;
+    }
+    
+    .div25 {
+        display: flex;
+        height: max-content;
+        margin-top: 70px;
+    }
+    
+    .div25 div {
+        border: 1px solid white;
+        border-radius: 50%;
+        margin: 0 10px 0 0;
+        padding: 5px 6px 2px 6px;
+        align-items: center;
+    }
+    
+    .div25 img {
+        width: 15px;
+        height: 15px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .div20 {
+        background: hsl(216, 53%, 9%);
+        padding: 250px 30px 50px 30px;
+    }
+    
+    .img4 {
+        width: 200px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .div21 {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+    .div22 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    
+    .div23 {
+        display: flex;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .div23 img {
+        width: 15px;
+        height: 18px;
+        margin-right: 20px;
+        
+    }
+    
+    .div23 p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+        opacity: 90%;
+        margin: 0;
+    }
+    
+    .div24 div {
+        display: flex;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    
+    .div24 div img {
+        width: 18px;
+        height: 16px;
+        margin-right: 20px;
+    }
+    
+    .div24 div p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+        opacity: 90%;
+        margin: 0;
+    }
+    
+    .div22 ul {
+        margin: 40px 0 0 -40px;
+        list-style: none;
+    }
+    
+    .div22 ul li {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+        opacity: 90%;
+        margin-bottom: 20px;
+    }
+    
+    .div25 {
+        display: flex;
+        height: max-content;
+        align-items: center;
+        margin: 70px auto 0 auto;
+    }
+    
+    .div25 div {
+        border: 1px solid white;
+        border-radius: 50%;
+        margin: 0 10px 0 0;
+        padding: 5px 6px 2px 6px;
+        align-items: center;
+    }
+    
+    .div25 img {
+        width: 15px;
+        height: 15px;
+    }
+
+}
