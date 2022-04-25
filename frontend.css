@@ -306,7 +306,7 @@ body {
     }
 
     .div4 img {
-        object-fit: cover;
+        object-fit: cover; vb/* x */
     }
 
 }
